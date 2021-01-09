@@ -1,6 +1,6 @@
 # Your now.sh domain. You can leave it with http://localhost:1313/
 # For local purposes
-baseURL = "http://localhost:1313/"
+baseURL = "https://blog-dsalazar.vercel.app/"
 languageCode = "es-ES"
 title = "WEBartisan"
 theme = "ezhil"
