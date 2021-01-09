@@ -2,7 +2,7 @@
 # For local purposes
 baseURL = "https://blog-dsalazar.vercel.app/"
 languageCode = "es-ES"
-title = "WEBartisan"
+title = "Mi blog"
 theme = "ezhil"
 
 # Enable syntax highlighting.
