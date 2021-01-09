@@ -1,0 +1,71 @@
+# Your now.sh domain. You can leave it with http://localhost:1313/
+# For local purposes
+baseURL = "http://localhost:1313/"
+languageCode = "es-ES"
+title = "WEBartisan"
+theme = "ezhil"
+
+# Enable syntax highlighting.
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# Your Google analytics code.
+googleAnalytics = "TU_CODIGO_DE_ANALYTICS"
+# Your Disqus sortname.
+disqusShortname = "TU_DISQUS_NICKNAME"
+
+# Number of posts to show in recent posts list (Optional). Defaults to 10.
+paginate = 20
+
+[params]
+    # Blog subtitle which appears below blog title. Supports markdown.
+    subtitle = "Building the web!!!"
+    # Content types which are included in home page recent posts list.
+    mainSections = ["posts"]
+    # Content types which are excludes Disqus comments.
+    disableDisqusTypes = ["page"]
+    # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
+    featherIconsCDN = true
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "FAQ"
+url = "/faq"
+weight = 4
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 5
+
+# Social media links which shows up on site header.
+# Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/tonirilix/webartisan-yt-channel"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/WebArtisanPW"
+
+# Enable tags.
+[taxonomies]
+   tag = "tags"
