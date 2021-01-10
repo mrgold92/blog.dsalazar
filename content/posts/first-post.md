@@ -2,7 +2,7 @@
 title: "Hola mundo"
 date: 2021-01-10T00:18:09+01:00
 draft: false
-tags: ["PHP", "C++", "java", "Python", "Go"]
+tags: ["JS", "PHP", "C++", "java", "Python", "Go"]
 description: "Hola mundo en diferentes lenguajes de programación"
 ---
 
@@ -12,7 +12,7 @@ En este vuestro ya primer post, veremos algo muy sencillo: **cómo poder hacer u
 
 ###  1. Java
 
-```
+```java
 //Main.java
 public class Main{
   public static void main(String[] args){
@@ -23,7 +23,7 @@ public class Main{
 
 ###  2. PHP
 
-```
+```php
 //main.php
 <?php
 	echo "¡Hola mundo!";
@@ -32,7 +32,7 @@ public class Main{
 
 ### 3. Python
 
-```
+```python
 //main.py
 print("¡Hola mundo!")
 ```
@@ -41,7 +41,7 @@ print("¡Hola mundo!")
 
 ### 4. C++
 
-```
+```c++
 #include 
 
 main()
@@ -52,7 +52,7 @@ main()
 
 ### 5. Go
 
-```
+```go
 package main
 
  import "fmt"
@@ -64,7 +64,7 @@ package main
 
 ### 6. JavaScript
 
-```
+```javaScript
 document.write('¡Hola mundo!');
 
 //por consola
