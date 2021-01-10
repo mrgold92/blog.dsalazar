@@ -18,7 +18,7 @@ paginate = 20
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "Building the web!!!"
+    subtitle = "Blog de programación o eso creo 😃"
     # Content types which are included in home page recent posts list.
     mainSections = ["posts"]
     # Content types which are excludes Disqus comments.
@@ -57,12 +57,12 @@ weight = 5
 [[params.social]]
 name = "Github"
 icon = "github"
-url = "https://github.com/tonirilix/webartisan-yt-channel"
+url = "https://github.com/mrgold92"
 
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://twitter.com/WebArtisanPW"
+url = ""
 
 # Enable tags.
 [taxonomies]

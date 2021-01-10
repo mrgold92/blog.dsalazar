@@ -46,7 +46,7 @@
 		{{- $.Scratch.Set "isDisqus" false -}}
 		{{ end }}
 
-		{{- if eq ($.Scratch.Get "isDisqus") true -}}
+		{{- if eq ($.Scratch.Get "isDisqus") false -}}
 		{{- partial "disqus.html" . -}}
 		{{- end -}}
 	</div>
