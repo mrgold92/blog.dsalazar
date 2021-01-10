@@ -4,6 +4,7 @@ date: 2021-01-10T00:18:09+01:00
 draft: false
 tags: ["JS", "PHP", "C++", "java", "Python", "Go"]
 description: "Hola mundo en diferentes lenguajes de programación"
+disqus: false
 ---
 
 **Bienvenidos** a mi primer blog. Hacía muchísimo tiempo que tenía en mente escribir un blog sobre aquellos temas que me apasionan, que básicamente son temas enfocado a la programación, tanto de aplicaciones web, como móviles o de escritorio.
