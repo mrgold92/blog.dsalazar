@@ -3,8 +3,10 @@ languageCode = "es-ES"
 title = "Mi blog"
 theme = "ezhil"
 
+copyright = "© 2021"
+
 # Enable syntax highlighting.
-pygmentsstyle = "vs"
+pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
@@ -14,7 +16,7 @@ googleAnalytics = "TU_CODIGO_DE_ANALYTICS"
 disqusShortname = "TU_DISQUS_NICKNAME"
 
 # Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 20
+paginate = 10
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
@@ -25,6 +27,8 @@ paginate = 20
     disableDisqusTypes = ["page"]
     # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
     featherIconsCDN = true
+
+    
 
 # Main menu which appears below site header.
 [[menu.main]]
