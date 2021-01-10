@@ -1,13 +1,76 @@
 ---
-title: "First Post"
+title: "Hola mundo"
 date: 2021-01-10T00:18:09+01:00
 draft: false
-tags: ["hugo", "golang", "blog"]
-description: "Cómo se creó este blog usando https://gohugo.io/"
+tags: ["JS", "PHP", "C++", "java", "Python", "Go"]
+description: "Hola mundo en diferentes lenguajes de programación"
 ---
 
+**Bienvenidos** a mi primer blog. Hacía muchísimo tiempo que tenía en mente escribir un blog sobre aquellos temas que me apasionan, que básicamente son temas enfocado a la programación, tanto de aplicaciones web, como móviles o de escritorio.
 
-Estas son las instrucciones para crear un blog como este:
+En este vuestro ya primer post, veremos algo muy sencillo: **cómo poder hacer un "hola mundo"** en diferentes lenguajes de programación. Más adelante nos enfocaremos en tres lenguajes que a mí me apasionan: JavaScript, Java y PHP.
 
-## Referencias
-[Página principal de Hugo](https://gohugo.io/)
+###  1. Java
+
+```java
+//Main.java
+public class Main{
+  public static void main(String[] args){
+    System.out.println("¡Hola mundo!");
+  }
+}
+```
+
+###  2. PHP
+
+```php
+//main.php
+<?php
+	echo "¡Hola mundo!";
+?>
+```
+
+### 3. Python
+
+```python
+//main.py
+print("¡Hola mundo!")
+```
+
+
+
+### 4. C++
+
+```c++
+#include 
+
+main()
+{
+	std::cout << "hola mundo.";
+}
+```
+
+### 5. Go
+
+```go
+package main
+
+ import "fmt"
+
+ func main() {
+	fmt.Printf("¡Hola mundo!\n")
+ }
+```
+
+### 6. JavaScript
+
+```javaScript
+document.write('¡Hola mundo!');
+
+//por consola
+console.log('¡Hola mundo!')
+```
+
+Y con esto tendríamos todos los "hola mundo" en diferentes lenguajes de programación.
+
+Espero que os haya gustado y nos vemos en el siguente post.
